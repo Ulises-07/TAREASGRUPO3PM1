@@ -7,13 +7,76 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="#ECECEC">
+
+        <EditText
+            android:id="@+id/numero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese primer número"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:backgroundTint="#2196F3"
+            android:padding="10dp"
+            android:marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/numero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese segundo número"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:backgroundTint="#2196F3"
+            android:padding="10dp"
+            android:marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMAR"
+            android:textSize="18sp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFF"
+            android:marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTAR"
+            android:textSize="18sp"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFF"
+            android:marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICAR"
+            android:textSize="18sp"
+            android:backgroundTint="#FFC107"
+            android:textColor="#000"
+            android:marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVIDIR"
+            android:textSize="18sp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="#FFF"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
