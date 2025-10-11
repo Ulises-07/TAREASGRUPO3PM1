@@ -24,8 +24,7 @@
             android:inputType="numberDecimal"
             android:textSize="18sp"
             android:backgroundTint="#2196F3"
-            android:padding="10dp"
-            android:marginBottom="12dp"/>
+            android:padding="10dp"/>
 
         <EditText
             android:id="@+id/numero2"
@@ -35,8 +34,7 @@
             android:inputType="numberDecimal"
             android:textSize="18sp"
             android:backgroundTint="#2196F3"
-            android:padding="10dp"
-            android:marginBottom="24dp"/>
+            android:padding="10dp"/>
 
         <Button
             android:id="@+id/btnSumar"
@@ -45,8 +43,7 @@
             android:text="SUMAR"
             android:textSize="18sp"
             android:backgroundTint="#4CAF50"
-            android:textColor="#FFF"
-            android:marginBottom="8dp"/>
+            android:textColor="#FFF"/>
 
         <Button
             android:id="@+id/btnRestar"
@@ -55,8 +52,7 @@
             android:text="RESTAR"
             android:textSize="18sp"
             android:backgroundTint="#F44336"
-            android:textColor="#FFF"
-            android:marginBottom="8dp"/>
+            android:textColor="#FFF"/>
 
         <Button
             android:id="@+id/btnMultiplicar"
@@ -65,8 +61,7 @@
             android:text="MULTIPLICAR"
             android:textSize="18sp"
             android:backgroundTint="#FFC107"
-            android:textColor="#000"
-            android:marginBottom="8dp"/>
+            android:textColor="#000"/>
 
         <Button
             android:id="@+id/btnDividir"

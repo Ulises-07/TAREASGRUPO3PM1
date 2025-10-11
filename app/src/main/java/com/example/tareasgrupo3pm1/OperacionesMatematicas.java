@@ -2,7 +2,7 @@ package com.example.tareasgrupo3pm1;
 
 public class OperacionesMatematicas {
     public double sumar(double a, double b)
-    {
+    {10
         return a + b;
     }
     public double restar(double a, double b)
