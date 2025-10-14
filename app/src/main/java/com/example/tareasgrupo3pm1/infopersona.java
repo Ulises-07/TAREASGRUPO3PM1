@@ -19,11 +19,13 @@ public class infopersona extends AppCompatActivity {
         String apellidos = getIntent().getStringExtra("apellidos");
         int edad = getIntent().getIntExtra("edad", 0);
         String correo = getIntent().getStringExtra("correo");
+        String direccion = getIntent().getStringExtra("direccion");
 
         String info = "Nombre: " + nombre + "\n"
                 + "Apellidos: " + apellidos + "\n"
                 + "Edad: " + edad + "\n"
-                + "Correo: " + correo;
+                + "Correo: " + correo + "\n"
+                + "Direccion: " + direccion;
 
         txtResultado.setText(info);
     }

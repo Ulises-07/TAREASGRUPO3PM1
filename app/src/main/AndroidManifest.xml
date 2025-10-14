@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TAREASGRUPO3PM1">
         <activity
+            android:name=".EditarPersonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerPersonasActivity"
+            android:exported="false" />
+        <activity
             android:name=".infopersona"
             android:exported="false" />
         <activity
